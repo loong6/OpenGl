@@ -9,6 +9,11 @@
 #include <iostream>
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
+#if (__linux__)
+#include <GL/glut.h>
+#else
+#include <GLUT/glut.h>
+#endif
 
 using namespace std;
 
@@ -30,7 +35,7 @@ void Render(void)
     glFlush();
 }
 
-int main(int argc, const char * argv[]) {
+int main(int argc, char ** argv) {
     
     GLFWwindow* win;
     if(!glfwInit()){
@@ -55,5 +60,6 @@ int main(int argc, const char * argv[]) {
         glfwPollEvents();
     }
     glfwTerminate();
+    
     return 0;
 }

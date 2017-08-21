@@ -1,5 +1,9 @@
 #include <math.h>
+#if （__linux__）
 #include <GL/glut.h>
+#else
+#include <GLUT/glut.h>
+#endif
 #include <stdio.h>
 const int sW = 640;
 const int sH = 480;

@@ -1,9 +1,16 @@
 #include <iostream>
 #include <cmath>
 #include <ctime>
+#if （__linux__）
 #include <GL/glut.h>
 #include <GL/glu.h>
 #include <GL/gl.h>
+#else
+#include <GLUT/glut.h>
+#include <OPENGL/gl.h>
+#include <OPENGL/glu.h>
+#endif
+
 
 using namespace std;
 

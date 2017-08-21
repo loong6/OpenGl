@@ -1,5 +1,9 @@
 #include <iostream>
+#if （__linux__）
 #include <GL/glut.h>
+#else
+#include <GLUT/glut.h>
+#endif
 #include <time.h>
 
 #define TYPE 1

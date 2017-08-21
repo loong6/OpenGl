@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E262C7D51F4AE3CA000EAF29 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E262C7D41F4AE3CA000EAF29 /* main.cpp */; };
 		E27FEE2E1F4AD72600AF62C7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27FEE2D1F4AD72600AF62C7 /* OpenGL.framework */; };
 		E27FEE361F4AD8B400AF62C7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27FEE351F4AD8B300AF62C7 /* GLUT.framework */; };
 		E27FEE3D1F4ADF1700AF62C7 /* libGLEW.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E27FEE3C1F4ADF1700AF62C7 /* libGLEW.2.0.0.dylib */; };
 		E27FEE3F1F4ADF2800AF62C7 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E27FEE3E1F4ADF2800AF62C7 /* libglfw.3.2.dylib */; };
-		E27FEE411F4AE05700AF62C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E27FEE401F4AE05700AF62C7 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,13 +27,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E262C7D31F4AE331000EAF29 /* ubuntu */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ubuntu; sourceTree = "<group>"; };
+		E262C7D41F4AE3CA000EAF29 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = mac/main.cpp; sourceTree = SOURCE_ROOT; };
+		E262C7D61F4AE46E000EAF29 /* ubuntu */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ubuntu; sourceTree = SOURCE_ROOT; };
 		E27FEE221F4AD70900AF62C7 /* OpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27FEE2D1F4AD72600AF62C7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		E27FEE351F4AD8B300AF62C7 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		E27FEE3C1F4ADF1700AF62C7 /* libGLEW.2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.0.0.dylib; path = ../../../../../../usr/local/Cellar/glew/2.0.0/lib/libGLEW.2.0.0.dylib; sourceTree = "<group>"; };
 		E27FEE3E1F4ADF2800AF62C7 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
-		E27FEE401F4AE05700AF62C7 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,6 @@
 		E27FEE191F4AD70900AF62C7 = {
 			isa = PBXGroup;
 			children = (
-				E262C7D31F4AE331000EAF29 /* ubuntu */,
 				E27FEE241F4AD70900AF62C7 /* OpenGL */,
 				E27FEE231F4AD70900AF62C7 /* Products */,
 				E27FEE2C1F4AD72600AF62C7 /* Frameworks */,
@@ -72,7 +71,8 @@
 		E27FEE241F4AD70900AF62C7 /* OpenGL */ = {
 			isa = PBXGroup;
 			children = (
-				E27FEE401F4AE05700AF62C7 /* main.cpp */,
+				E262C7D61F4AE46E000EAF29 /* ubuntu */,
+				E262C7D41F4AE3CA000EAF29 /* main.cpp */,
 			);
 			path = OpenGL;
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E27FEE411F4AE05700AF62C7 /* main.cpp in Sources */,
+				E262C7D51F4AE3CA000EAF29 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

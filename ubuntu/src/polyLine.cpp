@@ -1,7 +1,10 @@
 #include <iostream>
 #include <fstream>
+#if （__linux__）
 #include <GL/glut.h>
-
+#else
+#include <GLUT/glut.h>
+#endif
 using namespace std;
 
 void drawPolyLine()

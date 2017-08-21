@@ -1,5 +1,9 @@
 #include <iostream>
+#if （__linux__）
 #include <GL/glut.h>
+#else
+#include <GLUT/glut.h>
+#endif
 
 using namespace std;
 
