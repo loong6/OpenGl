@@ -253,6 +253,7 @@
 					"$(glfw_lib)",
 					"$(inherited)",
 				);
+				ORDER_FILE = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -269,6 +270,7 @@
 					"$(glfw_lib)",
 					"$(inherited)",
 				);
+				ORDER_FILE = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
