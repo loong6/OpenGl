@@ -15,8 +15,10 @@ using namespace std;
 
 void Render(void)
 {
+    static GLdouble angle = 1.0;
     glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
     glClear(GL_COLOR_BUFFER_BIT);
+    glRotated(++angle,1.0f , 1.0f, 1.0f);
     glBegin(GL_TRIANGLES);
     {
     glColor3f(1.0f, 0.0f, 0.0f);
