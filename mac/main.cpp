@@ -9,11 +9,6 @@
 #include <iostream>
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
-#if (__linux__)
-#include <GL/glut.h>
-#else
-#include <GLUT/glut.h>
-#endif
 
 using namespace std;
 
