@@ -4,10 +4,10 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Init.xcscheme</key>
+		<key>Hello Triangle.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>OpenGL.xcscheme</key>
 		<dict>
@@ -23,6 +23,26 @@
 			<true/>
 		</dict>
 		<key>E27FEE211F4AD70900AF62C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E286BCBE1F4D1C66005F03F4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E286BCD01F4D5450005F03F4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E286BCDB1F4D54C8005F03F4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E286BCEC1F4D811C005F03F4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

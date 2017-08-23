@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2251FB7A1F4BA43100DF30DA"
-               BuildableName = "Init"
-               BlueprintName = "Init"
+               BlueprintIdentifier = "E286BCEC1F4D811C005F03F4"
+               BuildableName = "Hello Triangle"
+               BlueprintName = "Hello Triangle"
                ReferencedContainer = "container:OpenGL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2251FB7A1F4BA43100DF30DA"
-            BuildableName = "Init"
-            BlueprintName = "Init"
+            BlueprintIdentifier = "E286BCEC1F4D811C005F03F4"
+            BuildableName = "Hello Triangle"
+            BlueprintName = "Hello Triangle"
             ReferencedContainer = "container:OpenGL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2251FB7A1F4BA43100DF30DA"
-            BuildableName = "Init"
-            BlueprintName = "Init"
+            BlueprintIdentifier = "E286BCEC1F4D811C005F03F4"
+            BuildableName = "Hello Triangle"
+            BlueprintName = "Hello Triangle"
             ReferencedContainer = "container:OpenGL.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2251FB7A1F4BA43100DF30DA"
-            BuildableName = "Init"
-            BlueprintName = "Init"
+            BlueprintIdentifier = "E286BCEC1F4D811C005F03F4"
+            BuildableName = "Hello Triangle"
+            BlueprintName = "Hello Triangle"
             ReferencedContainer = "container:OpenGL.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
