@@ -7,12 +7,17 @@
 		<key>Hello Triangle.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<key>OpenGL.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>Shader.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -43,6 +48,11 @@
 			<true/>
 		</dict>
 		<key>E286BCEC1F4D811C005F03F4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E286BD101F4D87C2005F03F4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
