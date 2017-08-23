@@ -16,5 +16,6 @@ int main(int argc, const char * argv[]) {
 //    int nrAttributes;
 //    glGetIntegerv(GL_MAX_VERTEX_ATTRIBS,&nrAttributes);
 //    std::cout << "MAX Vertex Attributes:" << nrAttributes << endl;
+	cout << "Hello OpenGL" << endl;
     return 0;
 }
