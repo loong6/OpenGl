@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E27B0B2B1F4E553A0097F2CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E27B0B2A1F4E553A0097F2CE /* main.cpp */; };
-		E27B0B2E1F4E5E170097F2CE /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E27B0B2C1F4E5E170097F2CE /* Shader.cpp */; };
 		E27B0B381F4E76CB0097F2CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E27B0B371F4E76CB0097F2CE /* main.cpp */; };
 		E27B0B3C1F4E76DB0097F2CE /* libGLEW.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2813DD41F4BB1D600FD5CB4 /* libGLEW.2.0.0.dylib */; };
 		E27B0B3D1F4E76DB0097F2CE /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E27FEE3E1F4ADF2800AF62C7 /* libglfw.3.2.dylib */; };
@@ -19,7 +18,6 @@
 		E27B0B441F4E7C7A0097F2CE /* shader.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = E27B0B301F4E71F90097F2CE /* shader.frag */; };
 		E27B0B4B1F4EA06C0097F2CE /* texture.vertex in CopyFiles */ = {isa = PBXBuildFile; fileRef = E27B0B491F4EA02F0097F2CE /* texture.vertex */; };
 		E27B0B4C1F4EA06C0097F2CE /* texture.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = E27B0B4A1F4EA0540097F2CE /* texture.frag */; };
-		E27B0B4F1F4EA0DD0097F2CE /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E27B0B4D1F4EA0DD0097F2CE /* Shader.cpp */; };
 		E27B0B591F4EA82B0097F2CE /* awesomeface.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = E27B0B581F4EA5890097F2CE /* awesomeface.png */; };
 		E27B0B5A1F4EA82B0097F2CE /* container.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = E27B0B561F4EA2800097F2CE /* container.jpg */; };
 		E27B0B5B1F4EA82B0097F2CE /* wall.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = E27B0B571F4EA2800097F2CE /* wall.jpg */; };
@@ -29,7 +27,6 @@
 		E27B0B691F4EB1710097F2CE /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27FEE351F4AD8B300AF62C7 /* GLUT.framework */; };
 		E27B0B6A1F4EB1710097F2CE /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27FEE2D1F4AD72600AF62C7 /* OpenGL.framework */; };
 		E27B0B6C1F4EB2C60097F2CE /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = E27B0B6B1F4EB2C60097F2CE /* glad.c */; };
-		E27B0B701F4ED2EC0097F2CE /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E27B0B6D1F4ED2EC0097F2CE /* Shader.cpp */; };
 		E27B0B731F4ED5C60097F2CE /* transform.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = E27B0B711F4ED48A0097F2CE /* transform.frag */; };
 		E27B0B741F4ED5C60097F2CE /* transform.vertex in CopyFiles */ = {isa = PBXBuildFile; fileRef = E27B0B721F4ED5130097F2CE /* transform.vertex */; };
 		E27B0B751F4ED5CA0097F2CE /* awesomeface.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = E27B0B581F4EA5890097F2CE /* awesomeface.png */; };
@@ -115,7 +112,6 @@
 
 /* Begin PBXFileReference section */
 		E27B0B2A1F4E553A0097F2CE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		E27B0B2C1F4E5E170097F2CE /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
 		E27B0B2D1F4E5E170097F2CE /* Shader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
 		E27B0B2F1F4E71AE0097F2CE /* shader.vertex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.vertex; sourceTree = "<group>"; };
 		E27B0B301F4E71F90097F2CE /* shader.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.frag; sourceTree = "<group>"; };
@@ -125,16 +121,12 @@
 		E27B0B481F4E82900097F2CE /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
 		E27B0B491F4EA02F0097F2CE /* texture.vertex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = texture.vertex; sourceTree = "<group>"; };
 		E27B0B4A1F4EA0540097F2CE /* texture.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = texture.frag; sourceTree = "<group>"; };
-		E27B0B4D1F4EA0DD0097F2CE /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
-		E27B0B4E1F4EA0DD0097F2CE /* Shader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
 		E27B0B561F4EA2800097F2CE /* container.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = container.jpg; path = Resources/container.jpg; sourceTree = "<group>"; };
 		E27B0B571F4EA2800097F2CE /* wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wall.jpg; path = Resources/wall.jpg; sourceTree = "<group>"; };
 		E27B0B581F4EA5890097F2CE /* awesomeface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = awesomeface.png; path = Resources/awesomeface.png; sourceTree = "<group>"; };
 		E27B0B601F4EB1650097F2CE /* Tranformations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tranformations; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27B0B621F4EB1650097F2CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E27B0B6B1F4EB2C60097F2CE /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
-		E27B0B6D1F4ED2EC0097F2CE /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
-		E27B0B6E1F4ED2EC0097F2CE /* Shader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
 		E27B0B6F1F4ED2EC0097F2CE /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
 		E27B0B711F4ED48A0097F2CE /* transform.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = transform.frag; sourceTree = "<group>"; };
 		E27B0B721F4ED5130097F2CE /* transform.vertex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = transform.vertex; sourceTree = "<group>"; };
@@ -214,8 +206,6 @@
 		E27B0B361F4E76CB0097F2CE /* Textures */ = {
 			isa = PBXGroup;
 			children = (
-				E27B0B4D1F4EA0DD0097F2CE /* Shader.cpp */,
-				E27B0B4E1F4EA0DD0097F2CE /* Shader.hpp */,
 				E27B0B401F4E76FA0097F2CE /* glad.c */,
 				E27B0B371F4E76CB0097F2CE /* main.cpp */,
 				E27B0B481F4E82900097F2CE /* stb_image.h */,
@@ -238,8 +228,6 @@
 		E27B0B611F4EB1650097F2CE /* Tranformations */ = {
 			isa = PBXGroup;
 			children = (
-				E27B0B6D1F4ED2EC0097F2CE /* Shader.cpp */,
-				E27B0B6E1F4ED2EC0097F2CE /* Shader.hpp */,
 				E27B0B6F1F4ED2EC0097F2CE /* stb_image.h */,
 				E27B0B6B1F4EB2C60097F2CE /* glad.c */,
 				E27B0B621F4EB1650097F2CE /* main.cpp */,
@@ -309,7 +297,6 @@
 			children = (
 				E286BD181F4D87CE005F03F4 /* glad.c */,
 				E286BD131F4D87C2005F03F4 /* main.cpp */,
-				E27B0B2C1F4E5E170097F2CE /* Shader.cpp */,
 				E27B0B2D1F4E5E170097F2CE /* Shader.hpp */,
 				E27B0B2F1F4E71AE0097F2CE /* shader.vertex */,
 				E27B0B301F4E71F90097F2CE /* shader.frag */,
@@ -463,7 +450,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E27B0B381F4E76CB0097F2CE /* main.cpp in Sources */,
-				E27B0B4F1F4EA0DD0097F2CE /* Shader.cpp in Sources */,
 				E27B0B411F4E76FA0097F2CE /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,7 +459,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E27B0B631F4EB1650097F2CE /* main.cpp in Sources */,
-				E27B0B701F4ED2EC0097F2CE /* Shader.cpp in Sources */,
 				E27B0B6C1F4EB2C60097F2CE /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,7 +485,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E286BD141F4D87C2005F03F4 /* main.cpp in Sources */,
-				E27B0B2E1F4E5E170097F2CE /* Shader.cpp in Sources */,
 				E286BD191F4D87CE005F03F4 /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -721,6 +705,7 @@
 				E27B0B3B1F4E76CB0097F2CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E27B0B641F4EB1650097F2CE /* Build configuration list for PBXNativeTarget "Tranformations" */ = {
 			isa = XCConfigurationList;
@@ -729,6 +714,7 @@
 				E27B0B661F4EB1650097F2CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E27FEE1D1F4AD70900AF62C7 /* Build configuration list for PBXProject "OpenGL" */ = {
 			isa = XCConfigurationList;

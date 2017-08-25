@@ -27,7 +27,7 @@
 #include <GLFW/glfw3.h>
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
-#include "Shader.hpp"
+#include "../Shader/Shader.hpp"
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -101,7 +101,7 @@ int main(int argc,char ** argv)
     Shader shader("transform.vertex","transform.frag");
     
     float vertices[] = {
-            // positions          // colors           // texture coords(note that we changed them to 'zoom in' on our texture image)
+        // positions          // colors           // texture coords(note that we changed them to 'zoom in' on our texture image)
         0.5f,  0.5f, 0.0f,   1.0f, 0.0f, 0.0f,   1.0f, 1.0f, // top right
         0.5f, -0.5f, 0.0f,   0.0f, 1.0f, 0.0f,   1.0f, 0.0f, // bottom right
         -0.5f, -0.5f, 0.0f,   0.0f, 0.0f, 1.0f,   0.0f, 0.0f, // bottom left
