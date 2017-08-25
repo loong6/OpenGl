@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Camera.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Coordinate Systems.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>Hello Triangle.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -73,6 +83,16 @@
 			<true/>
 		</dict>
 		<key>E286BD101F4D87C2005F03F4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E296DF421F4FBE4B00557CA7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E296DF5A1F4FEE5900557CA7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
