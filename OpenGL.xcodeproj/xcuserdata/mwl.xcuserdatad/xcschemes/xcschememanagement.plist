@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>Color.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>Coordinate Systems.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -93,6 +98,11 @@
 			<true/>
 		</dict>
 		<key>E296DF5A1F4FEE5900557CA7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E296DF731F50218000557CA7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
