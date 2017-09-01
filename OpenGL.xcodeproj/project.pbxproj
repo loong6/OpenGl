@@ -80,6 +80,16 @@
 		E296DF861F5029C400557CA7 /* color.vertex in CopyFiles */ = {isa = PBXBuildFile; fileRef = E296DF821F50290800557CA7 /* color.vertex */; };
 		E296DF871F5029C400557CA7 /* lamp.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = E296DF831F50290800557CA7 /* lamp.frag */; };
 		E296DF881F5029C400557CA7 /* lamp.vertex in CopyFiles */ = {isa = PBXBuildFile; fileRef = E296DF841F50290800557CA7 /* lamp.vertex */; };
+		E2A4075C1F590A1F00ED57CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2A4075B1F590A1F00ED57CE /* main.cpp */; };
+		E2A407601F590A2700ED57CE /* libGLEW.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2813DD41F4BB1D600FD5CB4 /* libGLEW.2.0.0.dylib */; };
+		E2A407611F590A2700ED57CE /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E27FEE3E1F4ADF2800AF62C7 /* libglfw.3.2.dylib */; };
+		E2A407621F590A2700ED57CE /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27FEE351F4AD8B300AF62C7 /* GLUT.framework */; };
+		E2A407631F590A2700ED57CE /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27FEE2D1F4AD72600AF62C7 /* OpenGL.framework */; };
+		E2A407651F590A3600ED57CE /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = E2A407641F590A3600ED57CE /* glad.c */; };
+		E2A4076A1F5926FE00ED57CE /* light.vertex in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2A407661F590B0B00ED57CE /* light.vertex */; };
+		E2A4076B1F5926FE00ED57CE /* light.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2A407671F59108800ED57CE /* light.frag */; };
+		E2A4076C1F5926FE00ED57CE /* lamp.vertex in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2A407681F59109200ED57CE /* lamp.vertex */; };
+		E2A4076D1F5926FE00ED57CE /* lamp.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2A407691F59109C00ED57CE /* lamp.frag */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -181,6 +191,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E2A407571F590A1F00ED57CE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				E2A4076A1F5926FE00ED57CE /* light.vertex in CopyFiles */,
+				E2A4076B1F5926FE00ED57CE /* light.frag in CopyFiles */,
+				E2A4076C1F5926FE00ED57CE /* lamp.vertex in CopyFiles */,
+				E2A4076D1F5926FE00ED57CE /* lamp.frag in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -232,6 +255,13 @@
 		E296DF821F50290800557CA7 /* color.vertex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = color.vertex; sourceTree = "<group>"; };
 		E296DF831F50290800557CA7 /* lamp.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = lamp.frag; sourceTree = "<group>"; };
 		E296DF841F50290800557CA7 /* lamp.vertex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = lamp.vertex; sourceTree = "<group>"; };
+		E2A407591F590A1F00ED57CE /* Basic Lighting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Basic Lighting"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A4075B1F590A1F00ED57CE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E2A407641F590A3600ED57CE /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
+		E2A407661F590B0B00ED57CE /* light.vertex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = light.vertex; sourceTree = "<group>"; };
+		E2A407671F59108800ED57CE /* light.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = light.frag; sourceTree = "<group>"; };
+		E2A407681F59109200ED57CE /* lamp.vertex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = lamp.vertex; sourceTree = "<group>"; };
+		E2A407691F59109C00ED57CE /* lamp.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = lamp.frag; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,6 +353,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E2A407561F590A1F00ED57CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A407601F590A2700ED57CE /* libGLEW.2.0.0.dylib in Frameworks */,
+				E2A407611F590A2700ED57CE /* libglfw.3.2.dylib in Frameworks */,
+				E2A407621F590A2700ED57CE /* GLUT.framework in Frameworks */,
+				E2A407631F590A2700ED57CE /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -372,6 +413,7 @@
 				E296DF441F4FBE4B00557CA7 /* Coordinate Systems */,
 				E296DF5C1F4FEE5900557CA7 /* Camera */,
 				E296DF751F50218000557CA7 /* Color */,
+				E2A4075A1F590A1F00ED57CE /* Basic Lighting */,
 				E27FEE231F4AD70900AF62C7 /* Products */,
 				E27FEE2C1F4AD72600AF62C7 /* Frameworks */,
 			);
@@ -388,6 +430,7 @@
 				E296DF431F4FBE4B00557CA7 /* Coordinate Systems */,
 				E296DF5B1F4FEE5900557CA7 /* Camera */,
 				E296DF741F50218000557CA7 /* Color */,
+				E2A407591F590A1F00ED57CE /* Basic Lighting */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -466,6 +509,19 @@
 				E296DF761F50218000557CA7 /* main.cpp */,
 			);
 			path = Color;
+			sourceTree = "<group>";
+		};
+		E2A4075A1F590A1F00ED57CE /* Basic Lighting */ = {
+			isa = PBXGroup;
+			children = (
+				E2A407641F590A3600ED57CE /* glad.c */,
+				E2A4075B1F590A1F00ED57CE /* main.cpp */,
+				E2A407661F590B0B00ED57CE /* light.vertex */,
+				E2A407671F59108800ED57CE /* light.frag */,
+				E2A407681F59109200ED57CE /* lamp.vertex */,
+				E2A407691F59109C00ED57CE /* lamp.frag */,
+			);
+			path = "Basic Lighting";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -607,6 +663,23 @@
 			productReference = E296DF741F50218000557CA7 /* Color */;
 			productType = "com.apple.product-type.tool";
 		};
+		E2A407581F590A1F00ED57CE /* Basic Lighting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2A4075F1F590A1F00ED57CE /* Build configuration list for PBXNativeTarget "Basic Lighting" */;
+			buildPhases = (
+				E2A407551F590A1F00ED57CE /* Sources */,
+				E2A407561F590A1F00ED57CE /* Frameworks */,
+				E2A407571F590A1F00ED57CE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Basic Lighting";
+			productName = "Basic Lighting";
+			productReference = E2A407591F590A1F00ED57CE /* Basic Lighting */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -648,6 +721,10 @@
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
+					E2A407581F590A1F00ED57CE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = E27FEE1D1F4AD70900AF62C7 /* Build configuration list for PBXProject "OpenGL" */;
@@ -670,6 +747,7 @@
 				E296DF421F4FBE4B00557CA7 /* Coordinate Systems */,
 				E296DF5A1F4FEE5900557CA7 /* Camera */,
 				E296DF731F50218000557CA7 /* Color */,
+				E2A407581F590A1F00ED57CE /* Basic Lighting */,
 			);
 		};
 /* End PBXProject section */
@@ -743,6 +821,15 @@
 			files = (
 				E296DF771F50218000557CA7 /* main.cpp in Sources */,
 				E296DF801F50219E00557CA7 /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A407551F590A1F00ED57CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A4075C1F590A1F00ED57CE /* main.cpp in Sources */,
+				E2A407651F590A3600ED57CE /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1020,6 +1107,30 @@
 			};
 			name = Release;
 		};
+		E2A4075D1F590A1F00ED57CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.0.0/lib,
+					/usr/local/Cellar/glfw/3.2.1/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2A4075E1F590A1F00ED57CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.0.0/lib,
+					/usr/local/Cellar/glfw/3.2.1/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1084,6 +1195,7 @@
 				E296DF491F4FBE4B00557CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E296DF5F1F4FEE5900557CA7 /* Build configuration list for PBXNativeTarget "Camera" */ = {
 			isa = XCConfigurationList;
@@ -1092,12 +1204,22 @@
 				E296DF611F4FEE5900557CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E296DF781F50218000557CA7 /* Build configuration list for PBXNativeTarget "Color" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E296DF791F50218000557CA7 /* Debug */,
 				E296DF7A1F50218000557CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2A4075F1F590A1F00ED57CE /* Build configuration list for PBXNativeTarget "Basic Lighting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A4075D1F590A1F00ED57CE /* Debug */,
+				E2A4075E1F590A1F00ED57CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
