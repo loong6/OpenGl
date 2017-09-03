@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{53EF9D1C-6BB5-47C1-BD68-3C3F1100AA7C}</ProjectGuid>
-    <RootNamespace>Shader</RootNamespace>
+    <ProjectGuid>{9A882736-7B92-436E-B551-A8FE6CCF1F2B}</ProjectGuid>
+    <RootNamespace>Color</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -69,7 +69,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>H:\OpenGl\libs\glew\2.0.0\include;H:\OpenGl\glad\include;H:\OpenGl\libs\glfw\3.2.1\include;$(IncludePath)</IncludePath>
+    <IncludePath>H:\OpenGl\libs\glew\2.0.0\include;H:\OpenGl\glad\include;H:\OpenGl\libs\glfw\3.2.1\include;H:\OpenGl;$(IncludePath)</IncludePath>
     <LibraryPath>H:\OpenGl\libs\WinLibs;H:\OpenGl\libs\glew\2.0.0\lib;H:\OpenGl\libs\glfw\3.2.1\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -124,13 +124,6 @@
   <ItemGroup>
     <ClCompile Include="glad.c" />
     <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="shader.frag" />
-    <None Include="shader.vertex" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Shader.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

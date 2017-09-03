@@ -23,12 +23,15 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader.frag" />
-    <None Include="shader.vertex" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Shader.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="texture.frag" />
+    <None Include="texture.vertex" />
   </ItemGroup>
 </Project>

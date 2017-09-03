@@ -22,13 +22,4 @@
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="shader.frag" />
-    <None Include="shader.vertex" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Shader.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
 </Project>

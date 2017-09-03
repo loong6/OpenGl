@@ -158,7 +158,7 @@ int main(int argc, const char * argv[]) {
 #ifdef __APPLE__
     unsigned char *data = stbi_load("container.jpg", &width, &height, &nrChannels, 0);
 #else
-    data = stbi_load("../Resources/container.jpg", &width, &height, &nrChannels, 0);
+	unsigned char *data = stbi_load("../Resources/container.jpg", &width, &height, &nrChannels, 0);
 #endif
     if (data)
         {
