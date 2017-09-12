@@ -9,7 +9,6 @@
 #include "../Camera/Camera.h"
 
 #include <iostream>
-#include <glad/glad.h>
 
 using namespace std;
 

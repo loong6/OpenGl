@@ -15,24 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="glad.c">
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="lamp.frag">
+    <None Include="lighting_map.vertex">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="lighting_map.frag">
       <Filter>资源文件</Filter>
     </None>
     <None Include="lamp.vertex">
       <Filter>资源文件</Filter>
     </None>
-    <None Include="material.frag">
-      <Filter>资源文件</Filter>
-    </None>
-    <None Include="material.vertex">
+    <None Include="lamp.frag">
       <Filter>资源文件</Filter>
     </None>
   </ItemGroup>
